@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.search-m{
+    position: relative;
+    z-index: 1;
+    height: 60px;
+}
+.form{
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+.search_bg
+{
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    text-shadow: 0 0 black;
+}
+.camera{
+    position: absolute;
+    right: 75px;
+    top: 3px;
+}
+#hotsearch{
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 18px;
+}
+#hotsearch .style-red{
+    color: #e1251b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a {
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+    text-decoration: none;
+}
+.search-m .button{
+     border-radius: 0;
+     right:0;
+     width: 58px;
+     height:32px ;
+     line-height: 32px;
+     border:none;
+     background-color: #e1251b;
+     font-size: 20px;
+     font-weight: 700;
+     color: #fff;
+     transition: background .2s ease;
+}
+.search-m .button, .search-m .search_bg, .search-m .text {
+    position: absolute;
+    top: 0;
+    outline: none;
+}
